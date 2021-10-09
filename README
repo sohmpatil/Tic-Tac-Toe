@@ -1,0 +1,21 @@
+Abstract:
+The project is not implemented for the game but for the demonstration of game-server, game-client connection.
+A simple implementation of a game server used to send packets between two peers to play a game of Tic-Tac-Toe
+
+Languages used:
+    Python
+    Twisted (.tac)
+    Json
+Also Netifaces
+
+Paradigm:
+    Object Oriented Programming, Event-Driven and Functional
+
+Usage:
+    1. To run a server, execute the run-server 
+        --> ./run-server
+    2. To run a client, execute run-client specifying the ip and the port number
+        --> ./run-client                        (localhost and default port 20000)
+        --> ./run-client 1234                   (localhost and port 1234)
+        --> ./run-client 192.168.0.104:1234     (IP is 192.168.0.104 and port is 1024)
+
